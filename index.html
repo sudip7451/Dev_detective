@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev-detective</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="container">
+
+            <div class="top">
+                <h1>DevDetective</h1>
+
+                <div class="top-icons">
+                    <p class="changeMode" id="dark-text">DARK <i id="dark-icon" class="fa-solid fa-moon"></i></p>
+                </div>
+            </div>
+
+            <div class="mid">
+                <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Enter a Github username here..." id="enter_action">
+                <button class="btn">search</button>
+            </div>
+
+            <div class="bottom">
+
+                <div class="bottom-first">
+
+                    <div id="image">
+                        <img src="sam.jpg.jpg" width="120px" height="120px">
+                    </div>
+
+                    <div class="user-detail">
+                        <div class="name">Samarth320</div>
+                        <div class="link">
+                            <a href="https://github.com/Samarth320" target="_blank" class="user-id">@Samarth320</a>
+                        </div>
+                        <div class="desc">Emerging Full-stack Developer</div>
+                    </div>
+
+                    <div class="join-date">joined AT 23 july 2023</div>
+                </div>
+
+                <div class="bottom-second">
+
+                    <div>
+                        <p class="num-text">Repos</p>
+                        <p class="num" id="repo_count">7</p>
+                    </div>
+
+                    <div>
+                        <p class="num-text">Followers</p>
+                        <p class="num" id="follower_count">0</p>
+                    </div>
+
+                    <div>
+                        <p class="num-text">Following</p>
+                        <p class="num" id="following_count">4</p>
+                    </div>
+
+                </div>
+
+                <div class="bottom-third">
+                    <div class="card_1 dark_theme">
+                        <p id="location"><i class="fa-solid fa-location-dot"></i> pune Maharashtra</p>
+                        <p><i class="fa-solid fa-link"></i> Not Available</p>
+                    </div>
+
+                    <div class="card_2 dark_theme">
+                        <p id="twitter"><i class="fa-brands fa-twitter"></i> Not Available</p>
+                        <p><i class="fa-solid fa-building-columns"></i> Not Available</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>

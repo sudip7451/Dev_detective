@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: azure;
+}
+
+
+/* dark effect */
+.wrapper.dark{
+    background-color: #141d2f;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+    padding: 10px;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+#dark-icon{
+    margin-left: 1px;
+    font-size: x-large;
+    color: rgb(72, 70, 70);
+}
+
+#dark-icon.dark{
+    color: white;
+}
+
+#dark-text{
+    color: rgb(72, 69, 69);
+    cursor: pointer;
+    user-select: none;
+}
+#dark-text.dark{
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    /* padding-right: 12px; */
+    padding-top: 8px;
+}
+
+h1{
+    color: rgb(56, 56, 81);
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+h1.dark{
+    color: white;
+}
+
+.mid{
+    width: 100%;
+    height: 70px;
+    background-color: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+    padding: 10px 10px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(192, 188, 188);
+}
+
+.mid.dark{
+    background-color: #1e2a47;
+    box-shadow: none;
+}
+
+#search-icon{
+    margin-left: 15px;
+    font-size: 1.5rem;
+    color: rgb(15, 86, 218);
+}
+
+.btn{
+    /* border: none; */
+    width: 6rem;
+    height: 3rem;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: rgb(15, 86, 218);;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    width: 78%;
+    height: 90%;
+    border: none;
+    padding: 3px 15px;
+    font-size: x-large;
+    /* background-color: #141d2f; */
+    background-color: white;
+}
+
+ input.dark{
+    background-color: #1e2a47;
+    color: white;
+}
+
+input.dark::placeholder{
+    color: white;
+    background-color: #1e2a47;
+}
+
+input::placeholder{
+    text-transform: capitalize;
+    font-size: medium;
+    letter-spacing: 1.5px;
+}
+
+input::placeholder.dark{
+    color: black;
+    background-color: #1e2a47;
+}
+
+input:focus{
+    outline: none;
+}
+
+.bottom{
+    width: 100%;
+    padding: 20px 20px;
+    background-color: white;
+    box-shadow: 5px 5px 8px rgb(192, 188, 188);
+    border-radius: 10px;
+}
+
+.bottom.dark{
+    background-color: #1e2a47;
+    box-shadow: none;
+}
+
+.bottom-first{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    margin-bottom: 3%;
+    gap: 10%;
+}
+
+.user-detail .name{
+    font-size: xx-large;
+    font-weight: bold;
+    /* padding: 5px; */
+    margin-bottom: 2px;
+}
+
+.user-detail .name.dark{
+    color: white;
+}
+
+.user-detail .user-id{
+    padding: 3px;
+    color: rgb(15, 86, 218);
+}
+
+.user-detail .desc{
+    padding: 4px;
+    color: #4b6a9b;
+    text-transform: capitalize;
+}
+
+.user-detail .desc.dark{
+    color: rgb(226, 216, 216);
+}
+
+.join-date{
+    margin-bottom: 50px;
+    padding: 3px;
+    text-transform: capitalize;
+    color: #4b6a9b;
+    font-size: 1.2rem;
+}
+
+.join-date.dark{
+    color: white;
+}
+
+.bottom-first img{
+    border-radius: 50%;
+    /* margin-left: 10px; */
+}
+
+.bottom-second{
+    width: 60%;
+    height: 80px;
+    margin-left: 33.8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3%;
+    padding: 5px;
+    background-color: rgb(248, 251, 255);
+    border-radius: 5px;
+}
+
+.bottom-second.dark{
+    background-color: #141d2f;
+    color: white;
+}
+
+.num{
+    font-weight: bold;
+    margin: 5px 5px;
+    font-size:xx-large;
+}
+
+.num.dark{
+    color: white;
+}
+
+.num-text{
+    text-align: center;
+    color: #4b6a9b;
+}
+.num-text.dark{
+    color: white;
+}
+
+.bottom-third{
+    width: 68%;
+    height: 120px;
+    margin-left: 35%;
+    color: rgb(36, 34, 34);
+    color: #4b6a9b;
+}
+
+.bottom-third.dark{
+    color: white;
+}
+
+.card_1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-icons{
+
+}
